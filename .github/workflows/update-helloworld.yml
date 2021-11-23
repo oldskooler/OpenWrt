@@ -9,8 +9,9 @@
 name: Update-helloworld
 
 on:
-  schedule:
-    - cron: 35 19 * * *
+  workflow_dispatch:
+#   schedule:
+#     - cron: 05 20 * * *
 
 jobs:
 
